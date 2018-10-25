@@ -1,6 +1,6 @@
 {
-  "name": "adbkit-apkreader",
-  "version": "3.1.0",
+  "name": "manifest-extractor",
+  "version": "0.0.1",
   "description": "Extracts information from APK files.",
   "keywords": [
     "adb",
@@ -8,7 +8,8 @@
     "android",
     "apk",
     "manifest",
-    "AndroidManifest"
+    "AndroidManifest",
+    "manifest-extractor"
   ],
   "bugs": {
     "url": "https://github.com/openstf/adbkit-apkreader/issues"
@@ -17,7 +18,7 @@
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openstf/adbkit-apkreader.git"
+    "url": "https://github.com/amulyakashyap09/adbkit-apkreader.git"
   },
   "dependencies": {
     "bluebird": "^3.4.7",
