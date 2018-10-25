@@ -1,6 +1,6 @@
-# adbkit-apkreader
+# manifest-extractor
 
-**adbkit-apkreader** provides a [Node.js](http://nodejs.org/) API for extracting information from Android APK files. For example, it allows you to read the `AndroidManifest.xml` of an existing APK file.
+**manifest-extractor** provides a [Node.js](http://nodejs.org/) API for extracting information from Android APK files. For example, it allows you to read the `AndroidManifest.xml` of an existing APK file.
 
 ## Requirements
 
@@ -11,7 +11,7 @@
 Install via NPM:
 
 ```bash
-npm install --save adbkit-apkreader
+npm install --save manifest-extractor
 ```
 
 ### Examples
@@ -20,7 +20,7 @@ npm install --save adbkit-apkreader
 
 ```javascript
 const util = require('util')
-const ApkReader = require('adbkit-apkreader')
+const ApkReader = require('manifest-extractor')
 
 ApkReader.open('HelloApp.apk')
   .then(reader => reader.readManifest())
@@ -29,9 +29,9 @@ ApkReader.open('HelloApp.apk')
 
 ## API
 
-### ApkReader
+### ManifestExtractor
 
-#### ApkReader.MANIFEST
+#### ManifestExtractor.MANIFEST
 
 A convenience constant with the value `'AndroidManifest.xml'`. Can use useful with other API methods in certain circumstances.
 
